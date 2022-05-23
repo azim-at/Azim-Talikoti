@@ -1405,13 +1405,14 @@ input[type="text"] {
  }
 
  /* Media Queries */
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 720px) {
   #subject, #message, #fname {
     position:relative;
     width: 40vh;
     right: 12vh;
   }
   .width-btn {
+    position: absolute;
     margin-left: 10px;
   }
   .card {
@@ -1431,5 +1432,9 @@ input[type="text"] {
     position: relative;
     left: 80px;
 }
+
+  #col-md-8-header {
+    padding-left: 1px;
+  }
 }
 
