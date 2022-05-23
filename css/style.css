@@ -1434,7 +1434,29 @@ input[type="text"] {
 }
 
   #col-md-8-header {
-    padding-left: 1px;
+    padding-left: 3px;
   }
-}
 
+  .lan-icons {
+    font-size: 15px;
+  }
+
+  #div2 {
+    position: relative;
+    padding: 20px;
+    float: left;
+    left: 30px;
+}
+#div4 {
+    position: relative;
+    padding: 20px;
+    float: left;
+    right: 1vh;
+}
+#div3 {
+    position: relative;
+    padding: 20px;
+    float: left;
+    left: 25px;
+}
+}
