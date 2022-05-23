@@ -1371,14 +1371,11 @@ input[type="text"] {
 }
 
 /* adjust contact me text box */
-#email, #subject {
-  width: 49%;
+#subject, #message, #fname {
+  position:relative;
+  width: 80%;
+  right: 10vh;
 }
-
-#message {
-  width:49%;
-}
-
 
 /* adjust send message */
 .width-btn {
@@ -1406,3 +1403,33 @@ input[type="text"] {
  .contact-head {
    text-align: center;
  }
+
+ /* Media Queries */
+ @media screen and (max-width: 600px) {
+  #subject, #message, #fname {
+    position:relative;
+    width: 40vh;
+    right: 12vh;
+  }
+  .width-btn {
+    margin-left: 10px;
+  }
+  .card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 10px;
+    bottom: 30px;
+    color: #a18a96;
+    background: url(azim.JPG);
+    background-size: cover;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  #header-align  {
+    height: 667px;
+    position: relative;
+    left: 80px;
+}
+}
+
