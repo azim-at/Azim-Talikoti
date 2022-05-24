@@ -286,7 +286,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-about,
-
   #fh5co-skills,
   #fh5co-started,
   #fh5co-work,
@@ -430,6 +429,7 @@ h1, h2, h3, h4, h5, h6, figure {
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
+  bottom: 10vh;
 }
 .timeline:before {
   top: 20px;
@@ -1404,6 +1404,10 @@ input[type="text"] {
    text-align: center;
  }
 
+ #fh5co-skills {
+   padding-bottom: 10px;
+ } 
+
  /* Media Queries */
  @media screen and (max-width: 720px) {
   #subject, #message, #fname {
@@ -1458,5 +1462,45 @@ input[type="text"] {
     padding: 20px;
     float: left;
     left: 25px;
+}
+#fh5co-skills {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+} 
+}
+
+@media screen and (max-width:320px) {
+  #header-align {
+    height: 721px;
+    position: relative;
+    left: 30px;
+}
+  body{
+    font-size: 13px;
+  }
+
+  #div1 {
+    padding: 20px;
+    float: left;
+    position: relative;
+    left: 20px;
+}
+  #div2 {
+    padding: 20px;
+    float: left;
+    position: relative;
+    left: 54px;
+}
+  #div3 {
+    padding: 20px;
+    float: left;
+    position: relative;
+    left: -8px;
+}
+  #div6 {
+    padding: 20px;
+    float: left;
+    position: relative;
+    left: 13px;
 }
 }
