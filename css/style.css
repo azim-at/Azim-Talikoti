@@ -1379,66 +1379,9 @@ input[type="text"] {
   margin-top: 0;
 }
 
-.div1 {
-  margin-left: 10%;
-  padding:20px;
-  float:left; 
-}
-.div2 {
-  padding:20px;
-  float:left; 
-}
-.div3 {
-  padding:20px;
-  float:left; 
-}
-
-.div4 {
-  padding:20px;
-  float:left; 
-}
-.div5 {
-  padding:20px;
-  float:left; 
-}
-.div6 {
-  padding:20px;
-  float:left; 
-}
-
 
 @media screen and (max-width: 486px){
-  .div1 {
-    margin-left: 10%;
-    padding: 0;
-    margin-right: 10%;
-  }
-  .div2 {
-    margin-left: 10%;
-    padding: 0;
-    margin-right: 10%;
-  }
-  .div3 {
-    margin-left: 10%;
-    padding: 0;
-    margin-right: 10%;
-  }
-  .div4 {
-    margin-left: 10%;
-    padding: 0;
-    margin-right: 10%;
-  }
-  .div5 {
-    margin-left: 10%;
-    padding: 0;
-    margin-right: 10%;
-  }
-  .div6 {
-    margin-left: 10%;
-    padding: 0;
-    margin-right: 10%;
-  }
-  
+
 .form-group {
   margin: 0;
   margin-bottom: 10%;
@@ -1459,37 +1402,6 @@ margin-top: 10%;
 
   body {
     font-size: 13px;
-  }
-
-  .div1 {
-    margin-left: 25%;
-    padding: 0;
-    margin-right: 10%;
-  }
-  .div2 {
-    margin-left: 10%;
-    padding: 0;
-    margin-right: 10%;
-  }
-  .div3 {
-    margin-left: 25%;
-    padding: 0;
-    margin-right: 10%;
-  }
-  .div4 {
-    margin-left: 10%;
-    padding: 0;
-    margin-right: 10%;
-  }
-  .div5 {
-    margin-left: 25%;
-    padding: 0;
-    margin-right: 10%;
-  }
-  .div6 {
-    margin-left: 10%;
-    padding: 0;
-    margin-right: 10%;
   }
 }
 
