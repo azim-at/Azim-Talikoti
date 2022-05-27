@@ -199,8 +199,8 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   margin: 0 auto;
   margin-bottom: 30px;
   -webkit-border-radius: 50%;
@@ -937,11 +937,6 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
 }
-@media screen and (max-width: 768px) {
-  #fh5co-consult .video {
-    display: none;
-  }
-}
 #fh5co-consult .choose {
   width: 50%;
   padding: 4em;
@@ -1034,17 +1029,6 @@ input[type="text"] {
   margin-right: auto;
   display: block;
   margin-bottom: 20px;
-}
-
-#map {
-  width: 100%;
-  height: 500px;
-  position: relative;
-}
-@media screen and (max-width: 768px) {
-  #map {
-    height: 200px;
-  }
 }
 
 .gototop {
@@ -1370,72 +1354,163 @@ input[type="text"] {
   padding: 8px 20px;
 }
 
-/* adjust contact me text box */
-#subject, #message, #fname {
-  position:relative;
-  width: 80%;
-  right: 10vh;
-}
-
-/* adjust send message */
-.width-btn {
-  margin-left: 22%;
-  margin-right: auto;
-}
- .fname-margin {
-   margin-top: 5vh;
- }
-
  #fh5co-resume {
    padding: 0;
  }
 
- .col-md-8 {
-   display: inline-block;
-   left: 10px;
-   bottom: 29px;
- }
 
  .resume-btn {
    margin-top: 50px;
  }
 
- .contact-head {
-   text-align: center;
- }
-
  #fh5co-skills {
-   padding-bottom: 10px;
+   padding-bottom: 48px;
  } 
 
- /* Media Queries */
- @media screen and (max-width: 720px) {
-  #subject, #message, #fname {
-    position:relative;
-    width: 40vh;
-    right: 12vh;
+.contact-header {
+  margin-right: 25%;
+}
+
+.c-h2 {
+  margin-bottom: 4%;
+}
+
+.hello-h2 {
+  margin-top: 0;
+}
+
+.div1 {
+  margin-left: 10%;
+  padding:20px;
+  float:left; 
+}
+.div2 {
+  padding:20px;
+  float:left; 
+}
+.div3 {
+  padding:20px;
+  float:left; 
+}
+
+.div4 {
+  padding:20px;
+  float:left; 
+}
+.div5 {
+  padding:20px;
+  float:left; 
+}
+.div6 {
+  padding:20px;
+  float:left; 
+}
+
+
+@media screen and (max-width: 486px){
+  .div1 {
+    margin-left: 10%;
+    padding: 0;
+    margin-right: 10%;
   }
+  .div2 {
+    margin-left: 10%;
+    padding: 0;
+    margin-right: 10%;
+  }
+  .div3 {
+    margin-left: 10%;
+    padding: 0;
+    margin-right: 10%;
+  }
+  .div4 {
+    margin-left: 10%;
+    padding: 0;
+    margin-right: 10%;
+  }
+  .div5 {
+    margin-left: 10%;
+    padding: 0;
+    margin-right: 10%;
+  }
+  .div6 {
+    margin-left: 10%;
+    padding: 0;
+    margin-right: 10%;
+  }
+  
+.form-group {
+  margin: 0;
+  margin-bottom: 10%;
+  }  
+.contact-header {
+margin-right: 0;
+}  
+.c-h2 {
+margin-bottom: 10%;
+}
+#fh5co-footer {
+margin-top: 10%;
+}
+
+}
+
+@media screen and (max-width: 320px){
+
+  body {
+    font-size: 13px;
+  }
+
+  .div1 {
+    margin-left: 25%;
+    padding: 0;
+    margin-right: 10%;
+  }
+  .div2 {
+    margin-left: 10%;
+    padding: 0;
+    margin-right: 10%;
+  }
+  .div3 {
+    margin-left: 25%;
+    padding: 0;
+    margin-right: 10%;
+  }
+  .div4 {
+    margin-left: 10%;
+    padding: 0;
+    margin-right: 10%;
+  }
+  .div5 {
+    margin-left: 25%;
+    padding: 0;
+    margin-right: 10%;
+  }
+  .div6 {
+    margin-left: 10%;
+    padding: 0;
+    margin-right: 10%;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .card {
+    position: relative;
+    left: 25%;
+  }
+}
+
+ /* Media Queries  */
+@media screen and (max-width: 768px) {
   .width-btn {
     position: absolute;
     margin-left: 10px;
   }
-  .card {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    left: 10px;
-    bottom: 30px;
-    color: #a18a96;
-    background: url(azim.JPG);
-    background-size: cover;
-    border-radius: 100%;
-    overflow: hidden;
+  
+  #fh5co-footer {
+    margin-top: 10%;
   }
-  #header-align  {
-    height: 667px;
-    position: relative;
-    left: 80px;
-}
 
   #col-md-8-header {
     padding-left: 3px;
@@ -1444,63 +1519,8 @@ input[type="text"] {
   .lan-icons {
     font-size: 15px;
   }
-
-  #div2 {
-    position: relative;
-    padding: 20px;
-    float: left;
-    left: 30px;
-}
-#div4 {
-    position: relative;
-    padding: 20px;
-    float: left;
-    right: 1vh;
-}
-#div3 {
-    position: relative;
-    padding: 20px;
-    float: left;
-    left: 25px;
-}
-#fh5co-skills {
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-} 
-}
-
-@media screen and (max-width:320px) {
-  #header-align {
-    height: 721px;
-    position: relative;
-    left: 30px;
-}
-  body{
-    font-size: 13px;
-  }
-
-  #div1 {
-    padding: 20px;
-    float: left;
-    position: relative;
-    left: 20px;
-}
-  #div2 {
-    padding: 20px;
-    float: left;
-    position: relative;
-    left: 54px;
-}
-  #div3 {
-    padding: 20px;
-    float: left;
-    position: relative;
-    left: -8px;
-}
-  #div6 {
-    padding: 20px;
-    float: left;
-    position: relative;
-    left: 13px;
-}
+  #fh5co-skills {
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+  } 
 }
