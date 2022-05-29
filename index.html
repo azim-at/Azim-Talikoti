@@ -24,6 +24,16 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script>
+		function validateForm() {
+    		var a = document.forms["myForm"]["fname"].value;
+    		var b = document.forms["myForm"]["message"].value;
+			if (!a || !b) {
+			alert("Please fill all the fields.");
+			return false;
+			}
+  }
+		</script>
 	</head>
 	<body>
 		
@@ -203,18 +213,12 @@
 	</div>
 		<div class="choose animate-box">
 			<h2 class="c-h2 col-md-8 col-md-offset-2 text-center fh5co-heading">Contact me</h2>
-			<form class ="contact-header" method="POST" action="https://getform.io/f/23a36af3-ba6d-49df-8cb9-9101a93276ef">
+			<form name ="myForm" class ="contact-header" action="https://getform.io/f/23a36af3-ba6d-49df-8cb9-9101a93276ef" onsubmit="return validateForm()" method="POST"  required>
 				<div class="row form-group">
 					<div class="col-md-12 fname-margin">
 						<input name ="name" type="text" id="fname" class="form-control" placeholder="Name">
 					</div>
 				</div>
-				<div class="row form-group">
-					<div class="col-md-12">
-						<input name="subject" id="subject" class="form-control" placeholder="Subject">
-					</div>
-				</div>
-
 				<div class="row form-group">
 					<div class="col-md-12">
 						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Message"></textarea>
@@ -253,5 +257,6 @@
 	<script src="js/jquery.easypiechart.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="js/form.js"></script>
 	</body>
 </html>
