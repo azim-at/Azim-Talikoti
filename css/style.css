@@ -1352,7 +1352,7 @@ input[type="text"] {
 
  #fh5co-skills {
    padding-top: 50px;
-   padding-bottom: 48px;
+   padding-bottom: 0;
  } 
 
 .contact-header {
@@ -1365,6 +1365,28 @@ input[type="text"] {
 
 .hello-h2 {
   margin-top: 0;
+}
+
+.hire-me {
+    background-color: grey;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.h2-hire{
+  padding-top: 25px;
+  text-align: center;
+  color: white;
+}
+
+.p-hire{
+  text-align: center;
+  color: white;
+}
+
+.p-update {
+  color: black;
 }
 
 
