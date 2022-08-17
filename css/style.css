@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   height: 600px;
   width: 100%;
+  background: grey;
 }
 #fh5co-header .overlay,
 .fh5co-cover .overlay {
@@ -96,7 +97,10 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: grey;
+  background: url(../images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -970,9 +974,13 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  padding: 50px 0;
+  background-color: grey;
+  height: 10px;
+  color: white;
+  padding: 40px 0;
   float: left;
   width: 100%;
+  margin-top:0 !important;
 }
 #fh5co-footer p:last-child {
   margin-bottom: 0;
