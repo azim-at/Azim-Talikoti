@@ -307,7 +307,10 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: grey;
+  background: url(../images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -1377,7 +1380,10 @@ input[type="text"] {
 }
 
 .hire-me {
-    background-color: grey;
+    background: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
     width: 100%;
     margin-bottom: 50px;
@@ -1395,7 +1401,7 @@ input[type="text"] {
 }
 
 .p-update {
-  color: black;
+  color: white;
 }
 
 
