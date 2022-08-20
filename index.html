@@ -21,6 +21,8 @@
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+	<!-- Loader style -->
+	<link rel="stylesheet" href="css/loader.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -36,6 +38,19 @@
 		</script>
 	</head>
 	<body>
+
+		<!-- Loader -->
+		<center>
+			<div class="container-1">
+				<div class="loader">
+					<div class="ball"></div>
+					<div class="ball"></div>
+					<div class="ball"></div>
+					<span style="color: white;">Loading...</span>
+				</div>
+			</div>
+		</center>
+		<!-- Loader ends here -->
 		
 
 	
@@ -274,5 +289,10 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 	<script src="js/form.js"></script>
+	<script>
+        setTimeout(function(){
+            $('.container-1').fadeOut();
+        }, 2000);
+    </script>
 	</body>
 </html>
